@@ -3,14 +3,65 @@
     text-align: center;
 
 }
-h1,h2,a {
+h1,h2 {
     text-align: center;
     color: black;
     font-style: italic;
     margin-top: 20px;
-    font-size: 190%;
-    text-decoration: none;
+    font-size:190%;
 }
+a{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    margin-top: 20px;
+    font-size:190%;
+    text-decoration: none; 
+     
+}
+.cards {
+    display: inline-block;
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+.windows {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.3%;
+    box-shadow: 2px 3px 6px 3px #696969 ;
+    margin: 0 5%; 
+}
+.window {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.8%;
+    box-shadow: 4px 4px 6px 3px #696969 ;
+    margin: 0 6%; 
+    
+}
+.spis {
+    text-align: left;
+    margin-left: 10%;
+}
+.will {
+    display: inline-block;
+    border: 1px solid black;
+    text-align: right;
+    border-radius: 10px;
+    padding: 0.3%;
+    box-shadow: 2px 3px 6px 3px #696969 ;
+    margin: 0 5%; 
+    background-color: white;
+    transform: translateX(1040%) translateY(-10%);
+    font-size: 120%;
+}
+
 span {
     vertical-align: super;
 }
@@ -78,9 +129,6 @@ td {
 .basic {
     background-color: #ff1083;
 }
-.pro {
-    background-color: #0083f5;
-}
 .gold {
     background-color: #6400de;
 }
@@ -113,7 +161,7 @@ td {
 }
 .card{
     display: inline-block;
-    width: 280px;
+    width: 280PX;
     background-color: white;
     text-align: center;
     height: 400px;
